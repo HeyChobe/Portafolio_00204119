@@ -33,13 +33,13 @@ void pop(Pila *s, float *e){
 }
 
 void Pila_vacia(Pila *s){
-    float actual=0;
+    float actual=0, fondo=0;
     while((s->top)>-1){
         pop(s, &actual);
+        fondo=s->elem[s->top];
         (s->top--);
     }
-    float valor=s->elem[0];
-    cout<<"El valor del fondo es: "<<valor;
+    cout<<"El valor del fondo es: "<<fondo;
     cout<<endl;
 }
 
