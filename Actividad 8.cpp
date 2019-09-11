@@ -1,5 +1,4 @@
 //Actividad en clase
-//Cree una funcion "Pila_Vacia" que me deja la pila vacia y me guarde el valor del fondo
 
 #include <iostream>
 using namespace std;
