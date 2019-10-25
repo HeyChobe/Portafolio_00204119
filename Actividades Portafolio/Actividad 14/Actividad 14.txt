@@ -1,0 +1,45 @@
+Árbol 1.
+
+Raíz:A
+Ramas: B,C,D,E
+Hojas: G,H,I,F
+
+Niveles:
+	0) A
+	1) B,C
+	2) D,E,F
+	3) G,H,I
+
+Profundidad: 3
+Sub-Árbol: El de la raiz E simula a la raiz A
+Lleno: No
+Perfecto: No
+
+Recorridos:
+	Pre-orden: A,B,D,G,C,E,H,I,F
+	Post-orden: G,D,B,H,I,E,F,C,A
+	In-orden: G,D,B,A,H,E,I,C,F
+
+
+Árbol 2
+
+Raíz: A
+Ramas: B,C,D,E,F,H
+Hojas:I,J,G,K,L
+
+Niveles:
+	0) A
+	1) B
+	2) C,D
+	3)E,F,G,H
+	4)I,J,K,L
+
+Profundidad: 4
+Sub-árbol: Simulan a la raiz A los nodos E y F
+Lleno: No
+Perfecto: No
+
+Recorridos:
+	Pre-orden: A,B,C,E,I,F,J,D,G,H,K,L
+	Post-orden: I,E,J,F,C,G,K,L,H,D,B,A
+	In-orden: E,I,C,F,J,B,A,G,D,K,H,L
