@@ -1,0 +1,9 @@
+Árbol Binario de Búsqueda resultante
+	
+	      	81
+	     /      \
+	    80		  101
+     /		    /
+    60		 105
+
+Los procedimientos del AVL las he mandado al correo del Ing. Ronaldo Canizales, ya que considero que lo que se evaluará es el proceso a llegar a los árboles mostrados en las diapositivas
